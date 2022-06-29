@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Form Page</title>
+</header>
+
+<body>
+    <h1>Application Form</h1>
+    <form action="">
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" maxlength="20" placeholder="20 letters only"><br>
+        <label for="lastName">Last Name</label><br>
+        <input type="text" id="lastName" maxlength="20" placeholder="20 letters only">
+
+        <p>Region</p>
+        <input type="radio" id="asia" name="region"><label for="asia">Asia</label>
+        <input type="radio" id="europe" name="region"><label for="europe">Europe</label>
+        <input type="radio" id="northAmerica" name="region"><label for="northAmerica">North America</label>
+        <input type="radio" id="southAmerica" name="region"><label for="southAmerica">South America</label>
+        <input type="radio" id="africa" name="region"><label for="africa">Africa</label>
+
+        <p>Coding Class</p>
+        <input type="checkbox" id="javascript" name="codingClass">
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="phyton" name="codingClass">
+        <label for="phyton">Phyton</label>
+        <input type="checkbox" id="htmlCss" name="codingClass">
+        <label for="htmlCss">HTML/CSS</label>
+
+        <br>
+        <br>
+        <label>Your coding experience</label>
+        <select name="codeExp" id="codeExp">
+            <option value="no experience">No Experiences</option>
+            <option value="some experience">Some Experiences</option>
+            <option value="extensive experience">Extensive Experiences</option>
+        </select>
+
+        <br>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10">Any other comments for your application</textarea>
+    </form>
+
+</body>
+
+</html>
